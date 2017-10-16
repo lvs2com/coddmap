@@ -5,7 +5,7 @@ window.onload = function() {
         center: new L.LatLng(55.615814, 37.717085),
         fadeAnimation: !1,
         zoomAnimation: !1,
-        zoom: 10,
+        zoom: 100,
         zoomControl: !1
     });
     L.tileLayer("http://tile.digimap.ru/rumap/{z}/{x}/{y}.png?guid=131EEFFD-1342-4C0D-B03C-FD0EB571DC48", {
