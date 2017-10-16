@@ -6,7 +6,7 @@ window.onload = function() {
         fadeAnimation: !1,
         zoomAnimation: !1,
         zoom: 14,
-        zoomControl: !1
+        zoomControl: !0
     });
     
     
