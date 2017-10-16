@@ -8,6 +8,9 @@ window.onload = function() {
         zoom: 6,
         zoomControl: !1
     });
+    
+    var map = L.map('map').setView([51.505, -0.09], 13);
+    
     L.tileLayer("http://tile.digimap.ru/rumap/{z}/{x}/{y}.png?guid=131EEFFD-1342-4C0D-B03C-FD0EB571DC48", {
         maxZoom: 20,
         minZoom: 6,
