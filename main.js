@@ -5,7 +5,7 @@ window.onload = function() {
         center: new L.LatLng(55.615814, 37.717085),
         fadeAnimation: !1,
         zoomAnimation: !1,
-        zoom: 6,
+        zoom: 12,
         zoomControl: !1
     });
     
